@@ -1,0 +1,14 @@
+{
+    "name": "example-library2121",
+    "version": "1.0.0",
+    "description": "A simple math utility library",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "repository": "https://github.com/your-username/my-library",
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "@nestjs/common": "^8.0.0"
+    }
+  }
+  

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "compilerOptions": {
+    "assets": [
+      "mail/templates/**/*"
+    ],
+    "watchAssets": true,
+    "deleteOutDir": true,
+    "webpack": true
+  },
+  "projects": {
+    "keycloak-connect-nest-lib": {
+      "type": "library",
+      "root": "libs/keycloak-connect-nest-lib",
+      "entryFile": "index",
+      "sourceRoot": "libs/keycloak-connect-nest-lib/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/keycloak-connect-nest-lib/tsconfig.lib.json"
+      }
+    },
+    "example-library2121": {
+      "type": "library",
+      "root": "libs/example-library2121",
+      "entryFile": "index",
+      "sourceRoot": "libs/example-library2121/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/example-library2121/tsconfig.lib.json"
+      }
+    }
+  }
+}

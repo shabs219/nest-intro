@@ -1,0 +1,19 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@testApp/keycloak-connect-nest-lib/(.*)": "<rootDir>/../libs/keycloak-connect-nest-lib/src/$1",
+    "@testApp/keycloak-connect-nest-lib": "<rootDir>/../libs/keycloak-connect-nest-lib/src",
+    "@app/example-library2121/(.*)": "<rootDir>/../libs/example-library2121/src/$1",
+    "@app/example-library2121": "<rootDir>/../libs/example-library2121/src"
+  }
+}
