@@ -4,8 +4,8 @@
     "description": "A simple math utility library",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
-    "repository": "https://github.com/your-username/my-library",
-    "author": "Your Name",
+    "repository": "https://github.com/shabs219/nest-intro.git",
+    "author": "RobinRound21",
     "license": "MIT",
     "dependencies": {
       "@nestjs/common": "^8.0.0"
